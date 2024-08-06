@@ -43,6 +43,7 @@ static const struct led led0 = {
 	.num = 0,
 };
 
+
 void blink(const struct led *led, uint32_t sleep_ms, uint32_t id)
 {
 	const struct gpio_dt_spec *spec = &led->spec;

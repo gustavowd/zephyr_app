@@ -14,6 +14,11 @@
         "arm_const_structs.h": "c",
         "zbus.h": "c",
         "stm32g4xx_hal_adc.h": "c",
-        "cstdint": "c"
+        "cstdint": "c",
+        "stm32g4xx_hal_conf.h": "c",
+        "stm32g4xx_hal_dac.h": "c",
+        "stm32g4xx_hal_def.h": "c",
+        "stm32g4xx.h": "c",
+        "stm32g474xx.h": "c"
     }
 }

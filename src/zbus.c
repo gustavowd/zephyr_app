@@ -4,7 +4,9 @@
 #include <zephyr/zbus/zbus.h>
 #include <arm_math.h>
 #include <arm_const_structs.h>
- 
+#include <stm32g474xx.h>
+#include <stm32g4xx_hal_conf.h>
+
 ADC_HandleTypeDef hadc1;
 DMA_HandleTypeDef hdma_adc1;
 

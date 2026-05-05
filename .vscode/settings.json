@@ -19,6 +19,7 @@
         "stm32g4xx_hal_dac.h": "c",
         "stm32g4xx_hal_def.h": "c",
         "stm32g4xx.h": "c",
-        "stm32g474xx.h": "c"
+        "stm32g474xx.h": "c",
+        "printk.h": "c"
     }
 }

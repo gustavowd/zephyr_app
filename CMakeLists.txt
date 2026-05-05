@@ -13,6 +13,6 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(se28cp_app)
 
 #target_include_directories(app PRIVATE "~/zephyrproject/modules/lib/" "~/zephyrproject/modules/lib/cmsis-dsp/Include/")
-target_sources(app PRIVATE src/zbus.c src/keyboard.c src/main.c)
+target_sources(app PRIVATE src/zbus.c src/keyboard.c src/sensor.c src/main.c)
 
 

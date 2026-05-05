@@ -5,6 +5,7 @@
 		led1 = &led1;
 		//sw0 = &sw0;
 		sw1 = &sw1;
+		sensor0 = &sensor0;
 	};
 
 	leds {
@@ -17,6 +18,7 @@
 
 	buttons {
 		compatible = "gpio-keys";
+		debounce-interval-ms = <50>;
 		/*
 		sw0: sw_0 {
 			gpios = <&gpioc 13 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
@@ -26,6 +28,12 @@
 		sw1: sw_1 {
 			gpios = <&gpioa 10 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
 			zephyr,code = <INPUT_KEY_1>;
+		};
+	};
+
+	edge_sensor {
+		sensor0: sensor_0 {
+			gpios = <&gpioc 8 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
 		};
 	};
 };
